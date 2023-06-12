@@ -3,11 +3,15 @@
   margin: 0;
   padding: 0;
 }
-h1{
+body{
+	background-color: gray;
 	font-family: Arial,Helvitica,sans-serif;
+}
+h1{
+	
 	font-weight: bold;
 	font-style: italic;
-	font-size: 30px;
+	font-size: 175%;
 	color:black;
 	text-align: center;
 	margin-top:30px;
@@ -17,7 +21,7 @@ h1{
 
 .row > div{
 	background-color: lightblue;
-	border: 2px solid blue;
+	border: 1px solid black;
 	position: relative;
 	float:left;
 	margin-right: 10px;
@@ -27,23 +31,35 @@ h1{
 
 }
 
-.menu-item {
+
+h3 {
 	
-	width:70px;
+	width:90px;
 	height:30px;
-	border: 2px solid blue;
+	border: 1px solid black;
+	
 	text-align:center;
 	font-weight: bold;
    float:right;
 	
+}	
+#chic{
+	background-color: purple;
+}
+#beef{
+	background-color:magenta;
+}
+#sushi{
+	background-color: pink;
 }
 
 
-.item-dis{
+p{
 	
 	padding: 5px;
 	margin: 5px;
 	clear:right;
+	font-size:75%;
 }
 
 .row {
